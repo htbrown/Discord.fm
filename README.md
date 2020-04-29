@@ -15,6 +15,7 @@ Discord.fm is relatively easy to set up. Follow the steps below.
 7. Open a terminal window in the root of the repository on your computer.
 8. Run `npm i`.
 9. Run `node .`.
+10. Sit back and let the music play.
 
 ***You can use [PM2](https://npmjs.com/pm2) to keep the program running in the background.***
 
