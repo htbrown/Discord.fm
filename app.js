@@ -7,12 +7,12 @@ const config = require('./config'), DiscordRPC = require('discord-rpc'), LastFmN
 
 const rpc = new DiscordRPC.Client({ transport: 'ipc' });
 
-let l = new LastFmNode({
+const l = new LastFmNode({
     api_key: config.lastfm.key,
     secret: config.lastfm.secret
 });
 
-let stream = l.stream(config.lastfm.username);
+const stream = l.stream(config.lastfm.username);
 
 stream.on('nowPlaying', (track) => {
     rpc.setActivity({
