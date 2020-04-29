@@ -5,7 +5,7 @@ Discord rich presence for Last.fm.
 Discord.fm is relatively easy to set up. Follow the steps below.
 
 1. If you haven't already, [create a Last.fm account](https://last.fm).
-    * Configure your music streaming service to send data to Last.fm, more information is available [here](https://www.last.fm/about/trackmymusic)
+    * Configure your music streaming service to send data to Last.fm, more information is available [here](https://www.last.fm/about/trackmymusic).
 2. [Aquire a key and secret from Last.fm](https://last.fm/api). You only need to fill in the name and description. I recommend saving these keys in a file somewhere - you will not be able to get them back if you lose them.
 3. [Create a Discord application](https://discordapp.com/developers) and enable rich presence.
 4. (optional) Add two images to the resources section on the rich presence page. These can be configured later in the configuration file.
