@@ -13,7 +13,8 @@ Discord.fm is relatively easy to set up. Follow the steps below.
 5. Clone the git repository.
 6. Create a file in the root of the repository called `config.js`. Add the contents shown below this setup section.
 7. Open a terminal window in the root of the repository on your computer.
-8. Run `node .`.
+8. Run `npm i`.
+9. Run `node .`.
 
 ***You can use [PM2](https://npmjs.com/pm2) to keep the program running in the background.***
 
