@@ -1,6 +1,6 @@
 {
   "name": "discord.fm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discord rich presence for Last.fm.",
   "main": "app.js",
   "scripts": {
