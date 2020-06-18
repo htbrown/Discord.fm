@@ -1,6 +1,8 @@
 # Discord.fm
 Discord rich presence for Last.fm.
 
+iTunes, Windows Media Player, VLC all work with this.
+
 ## Setup
 Discord.fm is relatively easy to set up. Follow the steps below.
 
