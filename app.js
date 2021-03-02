@@ -41,8 +41,8 @@ stream.on("nowPlaying", (track) => {
   log.info(`Now Playing: ${track.name} - ${track.artist["#text"]}`);
 });
 
-stream.on("stoppedPlaying", (track) => {
-  rpc.clearActivity().then((r) => log.info("Stopped."));
+stream.on("stoppedPlaying", () => {
+  rpc.clearActivity().then(() => log.info("Stopped."));
 });
 
 stream.on("error", (error) => {
