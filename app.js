@@ -4,6 +4,11 @@
     Licensed under the MIT License.
  */
 
+const defaultIcons = {
+  logo: "logo",
+  user: "htbrown",
+};
+
 const config = require("./config"),
   DiscordRPC = require("discord-rpc"),
   LastFmNode = require("lastfm").LastFmNode,
@@ -27,9 +32,9 @@ stream.on("nowPlaying", (track) => {
   rpc.setActivity({
     details: `💿 ${track.name}`,
     state: `👤 ${track.artist["#text"]}`,
-    largeImageKey: config.icons.logo,
+    largeImageKey: (config.icons || defaultIcons).logo,
     largeImageText: `🎵 ${track.album["#text"]}`,
-    smallImageKey: config.icons.user,
+    smallImageKey: (config.icons || defaultIcons).user,
     smallImageText: `Discord.fm v${require("./package.json").version}`,
     startTimestamp: Date.now(),
   });
