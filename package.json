@@ -9,7 +9,7 @@
   "author": "Hayden Brown (htbrown.com)",
   "license": "MIT",
   "dependencies": {
-    "discord-rpc": "^3.1.0",
+    "discord-rpc": "^3.2.0",
     "journl": "^1.0.6",
     "lastfm": "^0.9.3"
   }
